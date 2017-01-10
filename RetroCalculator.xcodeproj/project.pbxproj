@@ -14,6 +14,12 @@
 		7C254DA01E25099E006593F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C254D9E1E25099E006593F0 /* LaunchScreen.storyboard */; };
 		7C254DAB1E25099F006593F0 /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C254DAA1E25099F006593F0 /* RetroCalculatorTests.swift */; };
 		7C254DB61E25099F006593F0 /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C254DB51E25099F006593F0 /* RetroCalculatorUITests.swift */; };
+		7C254DFE1E256538006593F0 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C254DFD1E256538006593F0 /* Minecraft.ttf */; };
+		7C254DFF1E256538006593F0 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C254DFD1E256538006593F0 /* Minecraft.ttf */; };
+		7C254E001E256538006593F0 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C254DFD1E256538006593F0 /* Minecraft.ttf */; };
+		7C254E021E25664F006593F0 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C254E011E25664F006593F0 /* btn.wav */; };
+		7C254E031E25664F006593F0 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C254E011E25664F006593F0 /* btn.wav */; };
+		7C254E041E25664F006593F0 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C254E011E25664F006593F0 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 		7C254DB11E25099F006593F0 /* RetroCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C254DB51E25099F006593F0 /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		7C254DB71E25099F006593F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C254DFD1E256538006593F0 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		7C254E011E25664F006593F0 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		7C254D941E25099E006593F0 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				7C254E011E25664F006593F0 /* btn.wav */,
+				7C254DFD1E256538006593F0 /* Minecraft.ttf */,
 				7C254D951E25099E006593F0 /* AppDelegate.swift */,
 				7C254D971E25099E006593F0 /* ViewController.swift */,
 				7C254D991E25099E006593F0 /* Main.storyboard */,
@@ -235,8 +245,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C254E021E25664F006593F0 /* btn.wav in Resources */,
 				7C254DA01E25099E006593F0 /* LaunchScreen.storyboard in Resources */,
 				7C254D9D1E25099E006593F0 /* Assets.xcassets in Resources */,
+				7C254DFE1E256538006593F0 /* Minecraft.ttf in Resources */,
 				7C254D9B1E25099E006593F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +257,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C254DFF1E256538006593F0 /* Minecraft.ttf in Resources */,
+				7C254E031E25664F006593F0 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +266,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C254E001E256538006593F0 /* Minecraft.ttf in Resources */,
+				7C254E041E25664F006593F0 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +530,7 @@
 				7C254DBC1E25099F006593F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C254DBD1E25099F006593F0 /* Build configuration list for PBXNativeTarget "RetroCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +539,7 @@
 				7C254DBF1E25099F006593F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C254DC01E25099F006593F0 /* Build configuration list for PBXNativeTarget "RetroCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +548,7 @@
 				7C254DC21E25099F006593F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
